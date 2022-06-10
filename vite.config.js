@@ -13,7 +13,7 @@ export default defineConfig({
   mode: "development",
   plugins: [svelte()],
   build: {
-    outDir: '/app/static/dist',
+    outDir: 'dist',
     emptyOutDir:true,
     sourcemap: true,
     rollupOptions: {
